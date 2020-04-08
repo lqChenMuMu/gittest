@@ -133,7 +133,6 @@ public class HttpUtils {
                 .setConnectionRequestTimeout(500) //获取连接的最长时间
                 .setSocketTimeout(10000) //数据传输的最长时间
                 .build();
-        System.out.println("hahah");
         return requestConfig;
     }
 
